@@ -1,7 +1,7 @@
-const App = require('./framework/App')
-const jsonParser = require('./framework/parseJson')
-const parseUrl = require('./framework/parseUrl')
-const userRouter = require('./src/user-router')
+const App = require('../framework/App')
+const jsonParser = require('../framework/parseJson')
+const parseUrl = require('../framework/parseUrl')
+const userRouter = require('./user-router')
 
 const PORT = process.env.PORT || 5000
 
